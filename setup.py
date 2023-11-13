@@ -1,30 +1,18 @@
-from setuptools import setup, find_packages
-
+from setuptools import setup
 setup(
-    name='math_quiz',  # Replace with your actual project name
-    version='0.1',
-    packages=find_packages(),
-    install_requires=[
-        # List your project dependencies here
-    ],
-    entry_points={
-        'console_scripts': [
-            'math_quiz=math_quiz.math_quiz:main',
-        ],
-    },
-    url='https://github.com/NeerajKrishnaS/dsss_homework_2',
-    license='Apache License',  # Choose an appropriate license
-    author='NeerajKrishnaS',
-    author_email='neerajKrishnabs@gmail.com',
-    description='A simple math quiz game',
-    long_description='A Python package for a simple math quiz game.',
-    long_description_content_type='text/markdown',
+     name='math_quiz',
+    version='1.0.0',
+    description="A math quiz',
+    author='Neeraj Krishna',
+    license='Apache',
+    packages=['math_quiz'],
+i   nstall_requires=[
+    
+    ]
+# No external dependencies for this code
     classifiers=[
-        'License :: OSI Approved :: Apache Software License v2.0',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
-    ],
-)
-
+       'Development Status :: Game',
+       'Intended Audience: Science/Research',
+       'License :: OSI Approved :: Apache-2.0 license',
+    ]
+)    
