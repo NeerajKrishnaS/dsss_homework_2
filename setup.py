@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
      name='math_quiz',
     version='1.0.0',
-    description="A math quiz',
+    description='A math quiz',
     author='Neeraj Krishna',
     license='Apache',
     packages=['math_quiz'],
