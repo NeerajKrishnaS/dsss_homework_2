@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='math_quiz',  # Replace with your actual project name
+    name='dsss_homework_2',  # Replace with your actual project name
     version='0.1',
     packages=find_packages(),
     install_requires=[
