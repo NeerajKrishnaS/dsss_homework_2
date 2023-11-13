@@ -6,7 +6,7 @@ setup(
     author='Neeraj Krishna',
     license='Apache',
     packages=['math_quiz'],
-i   nstall_requires=[
+    install_requires=[
     
     ]
 # No external dependencies for this code
